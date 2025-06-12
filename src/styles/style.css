@@ -1,70 +1,90 @@
-.brand-title{
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 30px;
-    align-items: center;
-    padding:5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-header {
-            padding: 10px;
-            font-family: Arial;
-            align-items: center;
-        }
-        .header-row-1 {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            background-color: #f1eef1;
-            padding: 20px;
-        }
-        aside span {
-            padding-right: 20px;
-        }
-        nav span {
-            padding-right: 20px;
-        }
-        .brand-container span {
-            margin-left: 5px;
-        }
+/* ===== Brand Title Styling ===== */
+.brand-title {
+    font-weight: bolder;              /* Makes the text bold */
+    font-style: italic;              /* Italicizes the brand name */
+    font-size: 30px;                 /* Increases font size */
+    align-items: center;            /* Aligns items vertically (used within flex container) */
+    padding: 5px;                    /* Padding around the text */
+    display: flex;                   /* Flexbox for layout */
+    flex-direction: row;            /* Horizontal alignment */
+    justify-content: center;        /* Centers content horizontally */
+    }
 
-.header-row-2{
+    /* ===== Header General Styling ===== */
+    header {
+        padding: 10px;
+        font-family: Arial;
+        align-items: center;             /* Aligns items in center (used if flex applied) */
+    }
 
-    display: flex;
+    /* ===== Header Row 1 Styling: Top Info Bar ===== */
+    .header-row-1 {
+        display: flex;                   /* Flex layout for horizontal alignment */
+        flex-direction: row;
+        justify-content: space-between; /* Space between each major block */
+        background-color: #f1eef1;      /* Light background color */
+        padding: 20px;
+    }
+
+    /* ===== Social Media Icons Inside <aside> ===== */
+    aside span {
+        padding-right: 20px;            /* Space between each icon */
+    }
+
+    /* ===== Navigation Link Styling ===== */
+    nav span {
+        padding-right: 20px;            /* Right padding for spacing between nav items */
+    }
+
+    /* ===== Brand Info Elements (Shipping, Country, Currency) ===== */
+    .brand-container span {
+        margin-left: 5px;               /* Spacing between each span element */
+    }
+
+
+
+
+    
+/* ===== Header Row 2: Main Navigation Bar ===== */
+.header-row-2 {
+    display: flex;                  /* Horizontal layout */
     flex-direction: row;
     justify-content: space-between;
-    background-color: #dbc8c8;
+    background-color: #dbc8c8;      /* Soft background color */
     font-size: 18px;
     align-items: center;
-}
+    }
 
-nav span{
-    padding-left: 40px;
-}
+    /* ===== Main Nav Links in Header Row 2 ===== */
+    nav span {
+        padding-left: 40px;             /* Adds spacing between nav items */
+    }
 
-.short-cuts {
-    padding: 30px;
-}
+    /* ===== Shortcut Icons (Search, User, Cart, etc.) ===== */
+    .short-cuts {
+        padding: 30px;                  /* Outer padding around shortcut area */
+    }
 
-.short-cuts span{
-    padding-right: 10px;
+    .short-cuts span {
+        padding-right: 10px;           /* Space between shortcut icons */
+    }
 
-}
+    /* ===== Nav Font Size Reinforcement in Row 2 ===== */
+    .header-row-2 nav span {
+        font-size: 18px;
+    }
 
-.header-row-2 nav span{
-    font-size: 18px;
-}
+    /* ===== Promotional Banner Section ===== */
+    article {
+        text-align: center;            /* Center-aligns the text and icons */
+        padding: 15px;                 /* Inner spacing */
+        background-color: black;       /* Black background for contrast */
+        color: white;                  /* White text */
+        margin: 5px 20px 10px 20px;    /* External spacing */
+        font-family: Arial;
+    }
 
- article {
-            text-align: center;
-            padding: 15px;
-            background-color: black;
-            color:white;
-            margin: 5px 20px 10px 20px;
-            font-family: Arial;
-        }
-        .bi-lightning-fill {
-            color: gold;
-        }
+    /* ===== Styling the Lightning Icon in the Banner ===== */
+    .bi-lightning-fill {
+        color: gold;                   /* Gives the icon a gold color */
+    }
