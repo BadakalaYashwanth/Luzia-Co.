@@ -1,0 +1,70 @@
+.brand-title{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    align-items: center;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header {
+            padding: 10px;
+            font-family: Arial;
+            align-items: center;
+        }
+        .header-row-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: #f1eef1;
+            padding: 20px;
+        }
+        aside span {
+            padding-right: 20px;
+        }
+        nav span {
+            padding-right: 20px;
+        }
+        .brand-container span {
+            margin-left: 5px;
+        }
+
+.header-row-2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #dbc8c8;
+    font-size: 18px;
+    align-items: center;
+}
+
+nav span{
+    padding-left: 40px;
+}
+
+.short-cuts {
+    padding: 30px;
+}
+
+.short-cuts span{
+    padding-right: 10px;
+
+}
+
+.header-row-2 nav span{
+    font-size: 18px;
+}
+
+ article {
+            text-align: center;
+            padding: 15px;
+            background-color: black;
+            color:white;
+            margin: 5px 20px 10px 20px;
+            font-family: Arial;
+        }
+        .bi-lightning-fill {
+            color: gold;
+        }
